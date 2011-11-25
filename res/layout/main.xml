@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="Slope"
+android:textSize="20dip"
+android:gravity="center"
+></TextView>
+<EditText
+android:id="@+id/slope"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="0.0*"
+android:textSize="30dip"
+android:digits="0123456789.-" android:clickable="true"></EditText>
+<TextView
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="Y-Intercept"
+android:textSize="20dip"
+android:gravity="center"
+></TextView>
+<EditText
+android:id="@+id/inter"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="0.0"
+android:textSize="30dip"
+android:digits="0123456789.-"></EditText>
+<Button android:layout_width="wrap_content"
+		android:id="@+id/graph"
+		android:text="Draw Graph"
+		android:layout_gravity="center"
+		android:layout_height="wrap_content" ></Button>
+<TextView
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="Equation"
+android:textSize="20dip"
+android:gravity="center"></TextView>
+<EditText
+android:id="@+id/equ"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="x"
+android:digits="0123456789+-*/^"
+android:textSize="30dip"></EditText>
+<Button android:layout_width="wrap_content"
+		android:id="@+id/graph2"
+		android:text="Draw Graph"
+		android:layout_gravity="center"
+		android:layout_height="wrap_content" ></Button>
+</LinearLayout>
